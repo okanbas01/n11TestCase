@@ -1,0 +1,8 @@
+<suite name = "testCases" >
+    <parameter name = "browser" value = "Chrome" />
+    <test name="Cucumber">
+        <classes>
+            <class name="testRunners.runner"/>
+        </classes>
+    </test>
+</suite>
