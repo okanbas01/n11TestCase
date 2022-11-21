@@ -52,7 +52,7 @@ static By emailArea = By.id("email");
     elementHelper.click(emailArea);
     elementHelper.sendKey(emailArea, "testdeneme@gmail.com");
     elementHelper.click(passportArea);
-    elementHelper.sendKey(passportArea, "testdeneme@gmail.com");
+    elementHelper.sendKey(passportArea, "test1234");
     elementHelper.click(loginButton);
     }
 
